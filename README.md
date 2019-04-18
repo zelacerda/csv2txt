@@ -3,7 +3,7 @@ Simple tool to convert CSV lines into Markdown texts.
 ## Usage
 
 `
-python csv2txt src dest
+python csv2txt.py src dest
 `
 
 Where `src` points to a CSV file and `dest` a output Markdown file.
