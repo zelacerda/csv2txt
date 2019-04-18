@@ -14,7 +14,7 @@ def csv2txt(src, dest):
             output += "## " + line_values[0] + '\n\n'
 
             for column, value in zip(col_names[1:], line_values[1:]):
-                output += "**" + column + "**: " + value + "\n"
+                output += "**" + column + "**: " + value + "\n\n"
 
             line = file.readline()
 
