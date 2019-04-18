@@ -1,12 +1,17 @@
 # csv2txt
 Simple tool to convert CSV lines into Markdown texts.
+
+## Version
+
+1.0 - by zelacerda
+
 ## Usage
 
 `
 python csv2txt.py src dest
 `
 
-Where `src` points to a CSV file and `dest` a output Markdown file.
+Where `src` points to a CSV file and `dest` points to an output Markdown file.
 
 The first column is always used as a H2 header.
 
@@ -56,6 +61,3 @@ will have the following output:
 
 \**profissão**: Médico
 
-## Version
-
-1.0 - by zelacerda
